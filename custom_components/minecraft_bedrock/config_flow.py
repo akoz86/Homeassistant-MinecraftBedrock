@@ -97,6 +97,7 @@ class MinecraftServerConfigFlow(ConfigFlow, domain=DOMAIN):
                         unique_id = f"{mac_address}-{port}"
                         if mac_address == "":
                             title = f"{ip_address}-{port}"
+
                         if ip_address.version == 6:
                             title = f"[{host}]:{port}"
                     else:
