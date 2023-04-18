@@ -95,8 +95,6 @@ class MinecraftServerConfigFlow(ConfigFlow, domain=DOMAIN):
                         # servers with same MAC address but different ports).
                         # Updated to allow IP address if MAC address is blank
                         unique_id = f"{ip_address}-{port}"
-                        if mac_address == "":
-                            title = f"{ip_address}-{port}"
                         if ip_address.version == 6:
                             title = f"[{host}]:{port}"
                     else:
