@@ -1,10 +1,10 @@
 {
-  "domain": "minecraft_bedrock",
+  "domain": "minecraft_server",
   "name": "Minecraft Bedrock Server",
   "config_flow": true,
   "version": "1.0.1",
   "iot_class": "local_polling",
-  "documentation": "https://www.home-assistant.io/integrations/minecraft_server",
+  "documentation": "https://github.com/akoz86/Homeassistant-MinecraftBedrock",
   "requirements": ["aiodns==3.0.0", "getmac==0.8.2", "mcstatus==6.0.0"],
   "codeowners": ["@akoz86"],
   "loggers": ["dnspython", "mcstatus"],
