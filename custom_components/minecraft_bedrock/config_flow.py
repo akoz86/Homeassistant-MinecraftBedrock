@@ -14,7 +14,6 @@ from .const import (  # pylint: disable=unused-import
     DEFAULT_HOST,
     DEFAULT_NAME,
     DEFAULT_PORT,
-    DEFAULT_TYPE,
     DOMAIN,
 )
 
