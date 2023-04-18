@@ -1,6 +1,6 @@
 {
   "domain": "minecraft_bedrock",
-  "name": "Minecraft Server",
+  "name": "Minecraft Bedrock Server",
   "config_flow": true,
   "version": "1.0.0",
   "iot_class": "local_polling",

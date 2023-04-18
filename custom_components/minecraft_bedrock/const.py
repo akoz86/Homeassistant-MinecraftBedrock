@@ -4,10 +4,9 @@ ATTR_PLAYERS_LIST = "players_list"
 
 DEFAULT_HOST = "localhost:19132"
 DEFAULT_NAME = "Minecraft Server"
-DEFAULT_TYPE = "BEDROCK"
 DEFAULT_PORT = 25565
 
-DOMAIN = "minecraft_server"
+DOMAIN = "minecraft_bedrock"
 
 ICON_LATENCY_TIME = "mdi:signal"
 ICON_PLAYERS_MAX = "mdi:account-multiple"
