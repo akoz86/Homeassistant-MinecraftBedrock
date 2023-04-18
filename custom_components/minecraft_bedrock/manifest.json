@@ -1,5 +1,5 @@
 {
-  "domain": "minecraft_server",
+  "domain": "minecraft_bedrock",
   "name": "Minecraft Bedrock Server",
   "config_flow": true,
   "version": "1.0.1",
