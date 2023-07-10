@@ -96,7 +96,7 @@ class MinecraftServerVersionSensor(MinecraftServerSensorEntity):
 
     async def async_update(self) -> None:
         """Update version."""
-        self._state = self._server.version
+        self._state = self._server.name
 
 
 class MinecraftServerProtocolVersionSensor(MinecraftServerSensorEntity):
@@ -147,7 +147,7 @@ class MinecraftServerPlayersOnlineSensor(MinecraftServerSensorEntity):
 
     async def async_update(self) -> None:
         """Update online players state and device state attributes."""
-        self._state = self._server.players_online
+        self._state = self._server.players.online
 
         device_state_attributes = None
         players_list = self._server.players_list
@@ -178,7 +178,7 @@ class MinecraftServerPlayersMaxSensor(MinecraftServerSensorEntity):
 
     async def async_update(self) -> None:
         """Update maximum number of players."""
-        self._state = self._server.players_max
+        self._state = self._server.players.max
 
 
 class MinecraftServerMOTDSensor(MinecraftServerSensorEntity):
@@ -211,5 +211,5 @@ class MinecraftServerMapSensor(MinecraftServerSensorEntity):
 
     async def async_update(self) -> None:
         """Update map."""
-        self._state = self._server.map
+        self._state = self._server.map_name
         
