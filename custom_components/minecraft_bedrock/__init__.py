@@ -4,7 +4,7 @@ import asyncio
 from datetime import datetime, timedelta
 import logging
 from typing import Any, Dict
-from mcstatus.server import MinecraftBedrockServer as MCStatusBedrock
+from mcstatus.server import BedrockServer as MCStatusBedrock
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_HOST, CONF_NAME, CONF_PORT
